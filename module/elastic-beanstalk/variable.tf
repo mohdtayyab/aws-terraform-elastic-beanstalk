@@ -97,7 +97,7 @@ variable "healthcheck_timeout" {
 variable "loadbalancer_subnets" {
   type        = list(string)
   description = "List of subnets to place Elastic Load Balancer"
-  default     = ["subnet-047edb0ac1c8e553a", "subnet-08108090c82b7ff48"]
+  default     = []
 }
 
 variable "application_port" {
